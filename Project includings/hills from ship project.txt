@@ -1,0 +1,95 @@
+void hills(){
+//from left 1st hill
+glColor3ub (150, 129, 117);
+    glBegin(GL_TRIANGLES);
+    glVertex2f(0, 250);
+    glVertex2f(0, 300);
+    glVertex2f(55, 250);
+
+    glColor3ub(0, 0, 0);
+    glBegin(GL_LINES);
+    glVertex2f(0, 250);
+    glVertex2f(0, 400);
+    glVertex2f(0, 400);
+    glVertex2f(55, 255);
+    glEnd();
+
+
+    glColor3ub (150, 129, 117);
+    glBegin(GL_TRIANGLES);
+    glVertex2f(20, 255);
+    glVertex2f(120, 340);
+    glVertex2f(200, 255);
+
+    glColor3ub(0, 0, 0);
+    glBegin(GL_LINES);
+    glVertex2f(30, 275);
+    glVertex2f(120, 340);
+
+    glVertex2f(120, 340);
+    glVertex2f(200, 255);
+    glEnd();
+
+    glColor3ub(0, 0, 0);
+    glBegin(GL_LINES);
+    glVertex2f(20, 255);
+    glVertex2f(120, 340);
+
+    glVertex2f(120, 340);
+    glVertex2f(200, 255);
+    glEnd();
+
+    glColor3ub (150, 129, 117);
+    glBegin(GL_TRIANGLES);
+    glVertex2f(20, 255);
+    glVertex2f(120, 340);
+    glVertex2f(200, 255);
+
+    glColor3ub (150, 129, 117);
+    glBegin(GL_TRIANGLES);
+    glVertex2f(180, 255);
+    glVertex2f(270, 320);
+    glVertex2f(360, 255);
+    glEnd();
+    //////line shape
+    glColor3ub(0, 0, 0);
+    glBegin(GL_LINES);
+    glVertex2f(180, 255);
+    glVertex2f(270, 320);
+
+    glVertex2f(270, 320);
+    glVertex2f(360, 255);
+    glEnd();
+
+    glColor3ub (150, 129, 117);
+    glBegin(GL_TRIANGLES);
+    glVertex2f(260, 255);
+    glVertex2f(340, 360);
+    glVertex2f(450, 255);
+    glEnd();
+    //////line shape
+    glColor3ub(0, 0, 0);
+    glBegin(GL_LINES);
+    glVertex2f(293, 299);
+    glVertex2f(340, 360);
+    glVertex2f(340, 360);
+    glVertex2f(450, 255);
+    glEnd();
+    //right last hills
+    glColor3ub (150, 129, 117);
+    glBegin(GL_TRIANGLES);
+    glVertex2f(440, 255);
+    glVertex2f(535, 385);
+    glVertex2f(650, 250);
+    glEnd();
+
+    glColor3ub(0, 0, 0);
+    glBegin(GL_LINES);
+    glVertex2f(440, 255);
+    glVertex2f(535, 385);
+    glVertex2f(535, 385);
+    glVertex2f(650, 250);
+    glEnd();
+
+    glFlush();
+}
